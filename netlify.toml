@@ -1,0 +1,9 @@
+[build]
+command = "npm run build"
+publish = ".next"
+
+[build.environment]
+NODE_VERSION = "22"
+
+# Configure a scheduled HTTPS call to /api/jobs/email with Authorization:
+# Bearer <CRON_SECRET> in your scheduling provider if deploying on Netlify.

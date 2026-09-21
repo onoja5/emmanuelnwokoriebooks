@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+*.zip
+.env*
+!.env.example
+playwright-report/
+test-results/
+docs/audit/
+docs/previews/
+.sites-runtime/
+*.tsbuildinfo
